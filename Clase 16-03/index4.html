@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 1 - 3 (Tablas)</title>
+  </head>
+  <body>
+    <h1>Planes</h1>
+    <table border="1">
+      <!-- tableRow tr -->
+      <tr>
+        <th>Encabezado de 1er columna</th>
+        <th>Basico</th>
+        <th>Intermedio</th>
+        <th>Premium</th>
+      </tr>
+      <tr>
+        <td>Cantidad de Dispositivos</td>
+        <td>1</td>
+        <td>2</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Precio</td>
+        <td>10,99</td>
+        <td>15,99</td>
+        <td>18,99</td>
+      </tr>
+      <tr>
+        <td>Calidad</td>
+        <td>720p</td>
+        <td>1080p</td>
+        <td>4k</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h1>Datos</h1>
+    <table border="1" style="width: 100%;">
+      <caption>
+        Titulo de tabla
+      </caption>
+      <tr>
+        <th rowspan="2">Nombre(rowspan:2-filas)</th>
+        <th>Apellido</th>
+        <th colspan="2">Telefono(colspan:2-espacios)</th>
+      </tr>
+      <tr >
+        <td>Sergio</td>
+        <td>Chavez</td>
+        <td>3516487324</td>
+        <!--1er espacio colspan-->
+        <td>4286545662</td>
+        <!--2do espacio colspan-->
+      </tr>
+    </table>
+  </body>
+</html>
